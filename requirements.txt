@@ -1,11 +1,12 @@
+streamlit
 
---extra-index-url https://download.pytorch.org/whl/cu128
 torch
-torchvision
+
 pymupdf
 
 langchain
 langchain-community
+langchain-core
 langchain-text-splitters
 langchain-huggingface
 langchain-google-genai
@@ -18,8 +19,12 @@ chromadb
 
 sentence-transformers
 transformers
-ragas
+
 python-dotenv
-streamlit
+
 groq
 openai
+
+numpy
+pandas
+pillow
