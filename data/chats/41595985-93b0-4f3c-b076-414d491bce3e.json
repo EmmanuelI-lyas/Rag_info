@@ -1,0 +1,60 @@
+{
+    "id": "41595985-93b0-4f3c-b076-414d491bce3e",
+    "title": "tell me regarding bis report?",
+    "created_at": "2026-07-23T23:09:01.796093",
+    "updated_at": "2026-07-23T23:09:31.974026",
+    "messages": [
+        {
+            "role": "user",
+            "content": "tell me regarding bis report?"
+        },
+        {
+            "role": "assistant",
+            "content": "Based on the provided documents, here is the available information regarding the **BIS Annual Economic Report 2026**:\n\n* **Purpose & Publisher:** It is published by the Bank for International Settlements (BIS) with the stated mission of *\"Promoting global monetary and financial stability.\"*\n* **Disclaimer:** The views expressed in the report do not necessarily reflect the official views of BIS member central banks.\n* **Availability:** The report is copyrighted by the Bank for International Settlements (2026) and accessible online at [bis.org](https://www.bis.org/publ/arpdf/ar2026e.htm).\n* **Topics & References:** The reference list includes studies and working papers covering topics such as stablecoin transactions, tokenomics, blockchain fragmentation, payment frictions, capital flows, and payment system innovations.",
+            "provider": "Gemini",
+            "model": "gemini-flash-latest",
+            "documents": [
+                {
+                    "page_content": "The views expressed here do not necessarily reflect the views of the BIS member central banks. \n \nThis publication is available on the BIS website (https://www.bis.org/publ/arpdf/ar2026e.htm). \n \n \n \n© Bank for International Settlements 2026. All rights reserved. Brief excerpts may be \nreproduced or translated provided the source is stated. \n \n \nISSN 2616-9428 (print) \nISSN 2616-9436 (online) \nISBN 978-92-9259-961-4 (print) \nISBN 978-92-9259-960-7 (online)",
+                    "metadata": {
+                        "content_type": "text",
+                        "source": "bis_report_2026.pdf",
+                        "page": 4
+                    }
+                },
+                {
+                    "page_content": "The views expressed here do not necessarily reflect the views of the BIS member central banks. \n \nThis publication is available on the BIS website (https://www.bis.org/publ/arpdf/ar2026e.htm). \n \n \n \n© Bank for International Settlements 2026. All rights reserved. Brief excerpts may be \nreproduced or translated provided the source is stated. \n \n \nISSN 2616-9428 (print) \nISSN 2616-9436 (online) \nISBN 978-92-9259-961-4 (print) \nISBN 978-92-9259-960-7 (online)",
+                    "metadata": {
+                        "source": "bis_report_2026.pdf",
+                        "page": 4,
+                        "content_type": "text"
+                    }
+                },
+                {
+                    "page_content": "Promoting global monetary \nand financial stability\nISSN 2616-9428 \nISBN 978-92-9259-961-4 \nBank for International Settlements (BIS)\nwww.bis.org\nemail@bis.org",
+                    "metadata": {
+                        "content_type": "text",
+                        "source": "bis_report_2026.pdf",
+                        "page": 133
+                    }
+                },
+                {
+                    "page_content": "Promoting global monetary \nand financial stability\nISSN 2616-9428 \nISBN 978-92-9259-961-4 \nBank for International Settlements (BIS)\nwww.bis.org\nemail@bis.org",
+                    "metadata": {
+                        "content_type": "text",
+                        "source": "bis_report_2026.pdf",
+                        "page": 133
+                    }
+                },
+                {
+                    "page_content": "BIS Annual Economic Report 2026 \n121\n \n \nReuter, M, I Agur, A Copestake, M Martinez Peria and K Teoh (2025): “Payment \nfrictions, capital flows, and exchange rates”, IMF Working Paper, no 2025/171. \nRolnick, A, B Smith and W Weber (1998): “Lessons from a laissez-faire payments \nsystem: the Suffolk Banking System (1825–58)”, Federal Reserve Bank of Minneapolis \nQuarterly Review, vol 22. \nRolnick, A and W Weber (1982): “Free banking, wildcat banking, and shinplasters”, \nFederal Reserve Bank of Minneapolis Quarterly Review, vol 6. \nSchär, F (2024): “Enhancing financial services with permissionless blockchains”, \nEuropean Commission Report. \nSchär, F, A Kosse, T Rice, T Shirakami and J Siridhasanakul (2026): “The anatomy of \nstablecoin transactions”, BIS Working Papers, no 1359. \nSchnabel, I and H S Shin (2004): “Liquidity and contagion: the crisis of 1763”, Journal \nof the European Economic Association, vol 2, no 6. \nShin, H S (2023): “A blueprint for the future monetary system”, speech on the occasion \nof the BIS Annual General Meeting, 25 June. \n——— (2026): “Tokenomics and blockchain fragmentation”, BIS Working Papers, \nno 1335. \nVoellmy, L (2021): “Preventing runs with fees and gates”, Journal of Banking & Finance, \nvol 125 (C), 106065. \nWaller, C (2025): “Embracing new technologies and players in payments”, speech \ngiven at the Payments Innovation Conference, Federal Reserve Board, Washington \nDC, 21 October. \nWang, J J (2025): “Banks in the age of stablecoins: some possible implications for \ndeposits, credit, and financial intermediation”, FEDS Notes, December.",
+                    "metadata": {
+                        "source": "bis_report_2026.pdf",
+                        "page": 131,
+                        "content_type": "text"
+                    }
+                }
+            ]
+        }
+    ]
+}

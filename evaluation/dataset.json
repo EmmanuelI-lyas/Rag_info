@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Easy",
+    "primary_source": "Text",
+    "question": "What three factors explain why global growth remained resilient in 2025 despite significant headwinds from tariffs and geopolitical uncertainty?",
+    "ground_truth": "Three factors stood out in 2025: first, the drag from higher trade barriers was lessened by effective tariff rates that were lower than anticipated, trade diversion, and firm margin absorption. Second, optimism regarding artificial intelligence (AI) triggered a surge in capital expenditure on AI infrastructure, lifting US investment with global supply chain spillovers. Third, 'AI animal spirits' bolstered stock valuations, which helped sustain favorable global financial conditions.",
+    "pages": "1"
+  },
+  {
+    "id": 2,
+    "difficulty": "Easy",
+    "primary_source": "Chart",
+    "question": "According to Graph 15 in Chapter I, how has the median government debt-to-GDP ratio evolved for advanced economies (AEs) between 2001 and 2025?",
+    "ground_truth": "Graph 15.A shows that the median government debt-to-GDP ratio for advanced economies remained relatively stable near 60% until 2007. Following the Global Financial Crisis, it increased sharply to around 90% by 2013. After a brief period of consolidation, debt levels rose again following the pandemic, reaching nearly 100% of GDP by 2025.",
+    "pages": "27"
+  },
+  {
+    "id": 3,
+    "difficulty": "Easy",
+    "primary_source": "Text",
+    "question": "Explain the 'wealth effect' of rising equity values on household consumption as discussed in the report.",
+    "ground_truth": "The report explains that strong AI- and technology-driven equity market gains increased household wealth substantially. As equity wealth relative to income rose, households increased consumption through wealth effects, helping offset the negative impact of higher tariffs and other economic headwinds.",
+    "pages": "11"
+  },
+  {
+    "id": 4,
+    "difficulty": "Medium",
+    "primary_source": "Table",
+    "question": "Based on Table B1 in Chapter III, what are the main differences between Proof-of-Work and Proof-of-Stake consensus mechanisms?",
+    "ground_truth": "Proof-of-Work requires participants to expend computational power to solve cryptographic puzzles, with mining difficulty adjusting according to total computing power. Proof-of-Stake selects validators based on the amount of cryptocurrency they stake, penalizes malicious behavior through slashing, and reaches consensus through validator attestations rather than computational work.",
+    "pages": "86"
+  },
+  {
+    "id": 5,
+    "difficulty": "Medium",
+    "primary_source": "Diagram",
+    "question": "According to the Unified Ledger architecture diagram, what are the three main partitions of a Unified Ledger?",
+    "ground_truth": "The Unified Ledger consists of three primary partitions: Central Bank Money (tokenised reserves), Tokenised Private Money (tokenised deposits and other regulated private money), and Tokenised Assets. These partitions interact within a programmable infrastructure to enable atomic settlement.",
+    "pages": "107"
+  },
+  {
+    "id": 6,
+    "difficulty": "Medium",
+    "primary_source": "Text",
+    "question": "Explain the 'bank lending channel' and the 'fiscal space channel' through which stablecoin adoption affects the economy.",
+    "ground_truth": "The bank lending channel describes how stablecoin adoption can reduce retail bank deposits, increasing banks' funding costs and tightening credit supply, which lowers economic output. The fiscal space channel describes how stablecoin issuers' demand for short-term government securities lowers government borrowing costs, creating fiscal space for lower taxes or higher public spending that supports economic activity.",
+    "pages": "94, 98"
+  },
+  {
+    "id": 7,
+    "difficulty": "Medium",
+    "primary_source": "Chart",
+    "question": "According to Graph 5 in Chapter I, which two Asian economies have the greatest direct dependence on crude oil imports from the Persian Gulf?",
+    "ground_truth": "Graph 5.A identifies Japan (JP) and the Philippines (PH) as the two Asian economies with the highest direct dependence on crude oil imports from the Persian Gulf, each sourcing roughly 80% of their crude oil imports from the region.",
+    "pages": "13"
+  },
+  {
+    "id": 8,
+    "difficulty": "Hard",
+    "primary_source": "Text",
+    "question": "Define the 'demand bottleneck' scenario in the context of AI's long-run impact on productivity and economic growth.",
+    "ground_truth": "The demand bottleneck scenario occurs when increasing AI-driven automation shifts income away from workers toward AI investment, reducing aggregate consumer demand. As firms lose customers despite technological progress, further investment becomes less profitable, causing productivity growth and overall economic growth to slow because of insufficient demand rather than technological limitations.",
+    "pages": "20-21"
+  },
+  {
+    "id": 9,
+    "difficulty": "Hard",
+    "primary_source": "Chart",
+    "question": "Based on Graph 11 in Chapter I, how does the current AI investment boom compare with the Dotcom boom in terms of pace and scale?",
+    "ground_truth": "Graph 11.C shows that AI-related investment has grown considerably faster than investment during the Dotcom boom. By the third year after the investment trough, AI investment exceeded four times its initial level, while investment during the Dotcom boom remained below twice its trough level over the same period.",
+    "pages": "23"
+  },
+  {
+    "id": 10,
+    "difficulty": "Hard",
+    "primary_source": "Chart",
+    "question": "Based on Graph 6 in Chapter II, how did the sensitivity of bank-sovereign CDS co-movement change between banks' direct sovereign holdings and their exposures to non-bank financial institutions (NBFIs) from 2016 to 2024?",
+    "ground_truth": "Graph 6 indicates that the sensitivity associated with banks' direct sovereign bond holdings declined from roughly 0.08 in 2016 to slightly below zero by 2024. At the same time, the sensitivity associated with banks' exposures to non-bank financial institutions increased from approximately zero to around 0.10, indicating that the bank-sovereign nexus became increasingly linked through NBFIs rather than direct sovereign holdings.",
+    "pages": "53"
+  }
+]

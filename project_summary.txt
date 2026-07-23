@@ -1,0 +1,78 @@
+Financial RAG Assistant
+
+This project is a document-based question answering system designed for financial documents. It uses retrieval-augmented generation (RAG) to provide accurate and grounded answers by combining semantic search with large language model generation.
+
+Project Flow
+
+1. Document Ingestion
+   - Financial PDF reports and visual summary content are loaded from the data folder.
+   - The system extracts and prepares the text for downstream processing.
+
+2. Preprocessing and Chunking
+   - Raw content is cleaned and divided into smaller text chunks.
+   - This improves retrieval quality and allows the system to focus on the most relevant information.
+
+3. Embedding and Indexing
+   - Each chunk is converted into a vector embedding.
+   - These embeddings are stored in a Chroma vector database for fast semantic retrieval.
+
+4. Query Processing
+   - A user asks a question through the interface.
+   - The query is rewritten to improve search effectiveness.
+   - Relevant document chunks are retrieved from the vector database.
+   - The retrieved passages are reranked to prioritize the most useful context.
+
+5. Answer Generation
+   - The selected context is used to construct a prompt.
+   - A language model generates a final answer based on the retrieved evidence.
+   - The result is returned with supporting sources.
+
+Architecture
+
+The system follows a modular RAG architecture with four main layers:
+
+- Data Layer
+  - Source documents and supporting markdown files
+  - Local vector storage for embeddings
+
+- Ingestion Layer
+  - PDF extraction
+  - Text cleaning and chunking
+  - Visual document loading
+
+- Retrieval Layer
+  - Embedding generation
+  - Semantic similarity search
+  - Reranking of candidate passages
+
+- Generation Layer
+  - Prompt construction
+  - LLM inference using multiple providers
+  - Final answer synthesis
+
+Key Features
+
+- Financial-document-focused RAG workflow
+- Semantic retrieval using embeddings
+- Query rewriting for better search accuracy
+- Reranking to improve source relevance
+- Support for multiple LLM providers such as Gemini, Groq, and OpenRouter
+- Web-based chat interface through Streamlit
+- Command-line interface for quick testing
+- Evaluation pipeline for measuring system quality
+
+Evaluation
+
+The project includes an evaluation module that measures:
+
+- Semantic similarity between generated answers and reference answers
+- Retrieval hit rate for relevant evidence
+- Context precision of retrieved passages
+- Exact match quality
+- End-to-end latency of the system
+
+This makes it possible to benchmark and improve the pipeline over time.
+
+Summary
+
+This project demonstrates a complete end-to-end RAG system for financial document understanding. It combines retrieval, ranking, generation, and evaluation into a robust architecture that can answer questions with better grounding and context awareness than a standalone language model.
