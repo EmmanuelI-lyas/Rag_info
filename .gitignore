@@ -25,9 +25,7 @@ htmlcov/
 .ipynb_checkpoints/
 
 # Local data and generated artifacts
-*.sqlite
-*.sqlite3
-*.db
+
 *.log
 evaluation/results.csv
 
